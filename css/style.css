@@ -204,12 +204,15 @@ a:hover {
   margin-left: -10px;
   margin-right: -10px;
   padding-top: 20px;
+      width: 820;
 }
 .content-item {
   padding: 10px;
   width: 33.3333%;
   flex-grow: 1;
   overflow: hidden;
+  height: 168.88px;
+    width: 253.33;
 }
 .content-item__wrapper {
   position: relative;
