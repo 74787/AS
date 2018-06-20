@@ -42,6 +42,40 @@ a:hover {
   min-height: 100px;
   width: 250px;
   background-color: orange;
+  position: relative;
+}
+
+.form-left {
+      min-height: 100px
+      width: 150;
+      background-color: rgba(0, 0, 0, 0.4)
+      margin: 0 0 20px;
+      padding: 10px 20px;
+      border-radius: 7px;
+      background: rgba(0, 0, 0, 0.5);
+      color: #eeeeee;
+      margin-bottom: 40px;
+
+}
+.left-catigory{ 
+      
+      min-height: 100px
+      width: 150;
+      background-color: rgba(0, 0, 0, 0.4)
+      margin: 0 0 20px;
+      padding: 10px 20px;
+      border-radius: 7px;
+      background: rgba(0, 0, 0, 0.5);
+      color: #eeeeee;
+
+}
+.left-list{}
+
+.list{
+    display: block;
+    padding: 10px 0;
+    border-radius: 4px;
+    transition: padding-left 0.5s;
 }
 .right {
   min-height: 100px;
@@ -211,7 +245,7 @@ a:hover {
   width: 33.3333%;
   flex-grow: 1;
   overflow: hidden;
-  height: 168.88px;
+  
     width: 253.33;
 }
 .content-item__wrapper {
@@ -220,6 +254,9 @@ a:hover {
 }
 .content-item__image {
   width: 100%;
+  border-radius: 8px;
+  background-color: #45484c;
+  padding: 6px;
 }
 .content-item__title {
   position: absolute;
@@ -235,6 +272,7 @@ a:hover {
   color: #ffffff;
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
 }
 .content-item__description {
   position: absolute;
@@ -255,6 +293,8 @@ a:hover {
   background-color: #777;
   height: 100px;
 }
+
+
 
 @media (max-width: 1024px) {
   .right {
